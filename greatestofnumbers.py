@@ -1,2 +1,2 @@
-li=list(map(int,input().string()))
+li=list(map(int,input().split()))
 print(max(li))
