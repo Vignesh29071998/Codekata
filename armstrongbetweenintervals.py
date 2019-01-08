@@ -1,4 +1,5 @@
 a,b=map(int,input().split())
+l=[]
 for i in range(a+1,b):
   c=i
   s=0
@@ -7,7 +8,8 @@ for i in range(a+1,b):
     s+=d**3
     i=i//10
   if s==c:
-    print(s,end=' ')
+    l.append(s)
+' '.join(s)
     
   
     
