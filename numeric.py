@@ -1,10 +1,10 @@
 a = input()
 try:
   a = int(a)
-  print("yes")
+  print("Yes")
 except ValueError:
   try:
     a = float(a)
     print("yes")
   except ValueError:
-    print("no")
+    print("No")
