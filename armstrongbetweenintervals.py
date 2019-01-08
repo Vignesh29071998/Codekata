@@ -9,7 +9,7 @@ for i in range(a+1,b):
     i=i//10
   if s==c:
     l.append(s)
-' '.join(s)
+print(' '.join(s))
     
   
     
