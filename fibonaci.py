@@ -6,12 +6,12 @@ for i in range(1,n+1):
     l.append(i)
   else:
     c=a+b
-    b=c
     a=b
+    b=c
     l.append(c)
 for i in range(0,len(l)):
   if i==len(l)-1:
-    print(i)
+    print(l[i])
   else:
-    print(i,end=' ')
+    print(l[i],end=' ')
     
