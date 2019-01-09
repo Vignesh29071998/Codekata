@@ -8,3 +8,5 @@ else:
     print(a)
   elif len(a)//2==2:
     print(b)
+  else:
+    print(b)
