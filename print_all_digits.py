@@ -1,3 +1,3 @@
 a=int(input())
-a=list(a)
+a=list(str(a))
 print(' '.join(a))
