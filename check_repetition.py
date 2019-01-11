@@ -8,7 +8,6 @@ a=max(l)
 for i in range(0,len(l)):
   if a==l[i]:
     b.append(i)
-print(b)
 for i in range(0,len(b)):
   if i==len(b)-1:
     print(b[i])
