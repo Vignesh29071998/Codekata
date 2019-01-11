@@ -8,8 +8,11 @@ a=max(l)
 for i in range(0,len(l)):
   if a==l[i]:
     b.append(i)
-for i in range(0,len(b)):
-  if i==len(b)-1:
-    print(b[i])
-  else:
-    print(b[i],end=' ')
+if b==n1:
+  print("unique")
+else:
+  for i in range(0,len(b)):
+    if i==len(b)-1:
+      print(b[i])
+    else:
+      print(b[i],end=' ')
