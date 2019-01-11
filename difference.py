@@ -10,5 +10,6 @@ else:
     try:
       s+=abs(ord(x[i])-ord(y[i]))
     except IndexError:
-      s+=ord(x[i])-ord('a')+1
+      break
+print(s)
   
