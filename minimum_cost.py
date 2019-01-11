@@ -11,13 +11,14 @@ if len(x)<len(y):
       c+=1
   print(c)
 else:
-  for i in range(0,len(x)):
-    try:
-      if x[i]!=y[i]:
-        x.replace(x[i],y[i])
-        c+=1
-    except IndexError:
-      c+=len(x)-i
-      print(c)
-      break
-    
+  i,j=0,0
+  x=list(x)
+  y=list(y)
+  while i<len(x) and j<len(y):
+    if x[i]==y[j]:
+      i+=1
+      j+=1
+    else:
+      x.pop(0)
+      c+=1
+  print(c+len(x[i:]))
