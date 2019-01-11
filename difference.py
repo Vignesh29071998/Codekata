@@ -1,15 +1,15 @@
 x,y=input().split()
-while len(x)<len(y):
+s=0
+if len(x)<len(y):
   for i in range(0,len(y)):
-    try:
+    if i<=len(x)-1:
       s+=abs(ord(x[i])-ord(y[i]))
-    except IndexError:
+    else:
       s+=ord(y[i])-ord('a')+1
 else:
    for i in range(0,len(x)):
-    try:
+    if i<=len(y)-1:
       s+=abs(ord(x[i])-ord(y[i]))
-    except IndexError:
+    else:
       break
 print(s)
-  
