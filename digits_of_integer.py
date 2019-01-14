@@ -1,3 +1,2 @@
-#hello
-n=int(input())
-print(len(str(n)))
+a=int(input())
+print(len(str(a)))
