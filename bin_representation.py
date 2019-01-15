@@ -1,7 +1,12 @@
 n=input()
+flag=0
 for i in n:
   if i=='0' or i=='1':
-    print('yes')
+    flag=0
   else:
-    print('no')
+    flag=1
     break
+if flag==0:
+  print('yes')
+else:
+  print('no')
