@@ -1,2 +1,3 @@
-n=input()
-print(n)
+#hello
+d=input()
+print(d)
